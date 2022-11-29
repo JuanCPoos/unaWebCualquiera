@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navegacion {
+    background-color: rgb(33, 37, 41);
+    padding: 7px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 17px;
+    height: 5rem;
+}
+
+.navegacion ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.navegacion ul li a:hover {
+    font-size: 18px;
+    text-shadow: 0 2px 3px rgb(0, 0, 0, .5);
+}
+
+.top-container {
+    background-image: url('https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.top-container h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.novedades {
+    margin-top: 80px;
+    color: rgb(33, 37, 41);
+}
+
+
+.novedades .text {
+    margin: 50px 0;
+    color: rgb(33, 37, 41);
+}
+
+.seccionArticulos {
+    background-color: rgb(33, 37, 41);
+    padding: 50px 5%;
+
+}
+
+.seccionArticulos .contenido {
+    display: flex;
+    /* margin: 2vh; */
+}
+
+.seccionArticulos .container .card {
+    margin: auto;
+    width: auto;
+}
+
+.colors {
+    background-color: rgb(240, 238, 238);
+    padding: 1.60rem 1rem;
+    border-radius: 5px;
+}
+
+article {
+    margin: 4rem 0;
+}
+
+.foot {
+    margin: 4rem 0 0 0;
+    font-size: 12px;
+    background-color: rgb(7, 33, 58);
+    display: flex;
+
+}
+
+footer .ft {
+    display: flex;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
